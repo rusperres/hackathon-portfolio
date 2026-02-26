@@ -3,12 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TeamCit Portfolio</title>
-    <!-- Google Fonts -->
+    <title>AutoMates Portfolio - Home</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <!-- FontAwesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Link to CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,31 +15,31 @@
         <div class="container nav-container">
             <div class="logo">
                 <i class="fa-solid fa-cube" style="color: #ffb88c; margin-right: 10px;"></i>
-                <strong>TeamCit</strong>
+                <strong>AutoMates</strong>
             </div>
             <nav>
                 <ul class="nav-links">
-                    <li><a href="#" style="color: #ffb88c;">Home</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="index.html" style="color: #ffb88c;">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="about.html">About</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <!-- Hero Section -->
-    <section class="hero" style="background: linear-gradient(135deg, #FFE6E6 0%, #FFEBB3 100%);">
+    <section class="hero" style="background: linear-gradient(135deg, #ffe4e1 0%, #fce3b6 100%);">
         <div class="container hero-container">
             <div class="hero-text">
-                <h1>We are<br>CITeam</h1>
+                <h1>We are<br>AutoMates</h1>
                 <p>It's our mission to Code, Innovate, and Transform. As tech students, we thrive on solving complex problems and turning abstract ideas into functional, user-centric software.</p>
                 <div class="hero-buttons">
-                    <button class="btn btn-primary">View our works</button>
-                    <button class="btn btn-outline">Learn more</button>
+                    <!-- THESE ARE NOW LINKS TO YOUR NEW PAGES -->
+                    <a href="projects.html" class="btn btn-primary">View our works</a>
+                    <a href="about.html" class="btn btn-outline">Learn more</a>
                 </div>
             </div>
             <div class="hero-image">
-                <!-- Placeholder for the group photo -->
                 <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Team">
             </div>
         </div>
@@ -56,25 +53,28 @@
                 <p>We offer a full range of services to bring your vision to life</p>
             </div>
             <div class="services-grid">
-                <!-- Card 1 -->
+                <!-- Card 1: AI Integration (Updated Description) -->
                 <div class="service-card">
                     <div class="icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
                     <h3>AI Integration</h3>
-                    <p>Beautiful, responsive websites that captivate your audience and drive results.</p>
+                    <p>Leveraging artificial intelligence to automate complex tasks and provide intelligent insights.</p>
                 </div>
-                <!-- Card 2 -->
+                
+                <!-- Card 2: Web Design (Unchanged) -->
                 <div class="service-card">
                     <div class="icon"><i class="fa-solid fa-pen-nib"></i></div>
                     <h3>Web Design</h3>
                     <p>Beautiful, responsive websites that captivate your audience and drive results.</p>
                 </div>
-                <!-- Card 3 -->
+                
+                <!-- Card 3: Automation (Updated Title, Icon & Description) -->
                 <div class="service-card">
-                    <div class="icon"><i class="fa-solid fa-mobile-screen"></i></div>
-                    <h3>Mobile Apps</h3>
-                    <p>Native and cross-platform mobile applications that users love.</p>
+                    <div class="icon"><i class="fa-solid fa-gears"></i></div>
+                    <h3>Automation</h3>
+                    <p>Streamlining manual processes into efficient, self-running digital workflows.</p>
                 </div>
-                <!-- Card 4 -->
+                
+                <!-- Card 4: Development (Unchanged) -->
                 <div class="service-card">
                     <div class="icon"><i class="fa-solid fa-code"></i></div>
                     <h3>Development</h3>
@@ -89,74 +89,15 @@
         <div class="container">
             <div class="section-header">
                 <h2>Meet the team</h2>
-                <p>Quick introduction to the people behind TeamCIT</p>
+                <p>Quick introduction to the people behind AutoMates</p>
             </div>
             <div class="team-grid">
-                <!-- Member 1 -->
-                <div class="team-card">
-                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Amistad">
-                    <div class="team-info">
-                        <h3>Amistad,<br>Harold Shichiya</h3>
-                        <p class="specialty-label">Specialty:</p>
-                        <div class="pills">
-                            <span class="pill">CHUCHU</span>
-                            <span class="pill">CHUCHU</span>
-                            <span class="pill">CHUCHU</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Member 2 -->
-                <div class="team-card">
-                    <img src="https://randomuser.me/api/portraits/men/44.jpg" alt="Samson">
-                    <div class="team-info">
-                        <h3>Samson,<br>James</h3>
-                        <p class="specialty-label">Specialty:</p>
-                        <div class="pills">
-                            <span class="pill">CHUCHU</span>
-                            <span class="pill">CHUCHU</span>
-                            <span class="pill">CHUCHU</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Member 3 -->
-                <div class="team-card">
-                    <img src="https://randomuser.me/api/portraits/men/55.jpg" alt="Colindres">
-                    <div class="team-info">
-                        <h3>Colindres,<br>Jairus Jasper</h3>
-                        <p class="specialty-label">Specialty:</p>
-                        <div class="pills">
-                            <span class="pill">CHUCHU</span>
-                            <span class="pill">CHUCHU</span>
-                            <span class="pill">CHUCHU</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Member 4 -->
-                <div class="team-card">
-                    <img src="https://randomuser.me/api/portraits/men/66.jpg" alt="Velos">
-                    <div class="team-info">
-                        <h3>Velos,<br>John David</h3>
-                        <p class="specialty-label">Specialty:</p>
-                        <div class="pills">
-                            <span class="pill">CHUCHU</span>
-                            <span class="pill">CHUCHU</span>
-                            <span class="pill">CHUCHU</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Member 5 (Centered) -->
-                <div class="team-card centered-card">
-                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Encabo">
-                    <div class="team-info">
-                        <h3>Encabo,<br>Angela Jahziel</h3>
-                        <p class="specialty-label">Specialty:</p>
-                        <div class="pills">
-                            <span class="pill">CHUCHU</span>
-                            <span class="pill">CHUCHU</span>
-                            <span class="pill">CHUCHU</span>
-                        </div>
-                    </div>
-                </div>
+                <!-- Copy your 5 team members here exactly as you had them -->
+                <div class="team-card"><img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Amistad"><div class="team-info"><h3>Amistad,<br>Harold Shichiya</h3><p class="specialty-label">Specialty:</p><div class="pills"><span class="pill">CHUCHU</span></div></div></div>
+                <div class="team-card"><img src="https://randomuser.me/api/portraits/men/44.jpg" alt="Samson"><div class="team-info"><h3>Samson,<br>James</h3><p class="specialty-label">Specialty:</p><div class="pills"><span class="pill">CHUCHU</span></div></div></div>
+                <div class="team-card"><img src="https://randomuser.me/api/portraits/men/55.jpg" alt="Colindres"><div class="team-info"><h3>Colindres,<br>Jairus Jasper</h3><p class="specialty-label">Specialty:</p><div class="pills"><span class="pill">CHUCHU</span></div></div></div>
+                <div class="team-card"><img src="https://randomuser.me/api/portraits/men/66.jpg" alt="Velos"><div class="team-info"><h3>Velos,<br>John David</h3><p class="specialty-label">Specialty:</p><div class="pills"><span class="pill">CHUCHU</span></div></div></div>
+                <div class="team-card centered-card"><img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Encabo"><div class="team-info"><h3>Encabo,<br>Angela Jahziel</h3><p class="specialty-label">Specialty:</p><div class="pills"><span class="pill">CHUCHU</span></div></div></div>
             </div>
         </div>
     </section>
@@ -170,45 +111,14 @@
             </div>
             
             <div class="works-grid">
-                <!-- Work 1 -->
-                <div class="work-card">
-                    <div class="work-img-placeholder">Mockup Image Here</div>
-                    <div class="work-content">
-                        <span class="work-category">Web Design</span>
-                        <h3>E-Commerce Platform</h3>
-                        <div class="work-tags">
-                            <span class="tag">UI/UX Design</span>
-                            <span class="tag">TailwindCSS</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Work 2 -->
-                <div class="work-card">
-                    <div class="work-img-placeholder">Mockup Image Here</div>
-                    <div class="work-content">
-                        <span class="work-category">App Development</span>
-                        <h3>POS System</h3>
-                        <div class="work-tags">
-                            <span class="tag">Mobile Design</span>
-                            <span class="tag">Mobile Development</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Work 3 -->
-                <div class="work-card">
-                    <div class="work-img-placeholder">Mockup Image Here</div>
-                    <div class="work-content">
-                        <span class="work-category">AI Integration</span>
-                        <h3>Live Scanner</h3>
-                        <div class="work-tags">
-                            <span class="tag">AI Integration</span>
-                        </div>
-                    </div>
-                </div>
+                <!-- 3 Project Cards -->
+                <div class="work-card"><div class="work-img-placeholder">Mockup Image Here</div><div class="work-content"><span class="work-category">Web Design</span><h3>E-Commerce Platform</h3><div class="work-tags"><span class="tag">UI/UX Design</span><span class="tag">TailwindCSS</span></div></div></div>
+                <div class="work-card"><div class="work-img-placeholder" style="background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);">Mockup Image Here</div><div class="work-content"><span class="work-category">App Development</span><h3>POS System</h3><div class="work-tags"><span class="tag">Mobile Design</span><span class="tag">Mobile Dev</span></div></div></div>
+                <div class="work-card"><div class="work-img-placeholder" style="background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);">Mockup Image Here</div><div class="work-content"><span class="work-category">AI Integration</span><h3>Live Scanner</h3><div class="work-tags"><span class="tag">AI Integration</span></div></div></div>
             </div>
             
             <div class="view-all">
-                <a href="#">View All Projects <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="projects.html">View All Projects <i class="fa-solid fa-arrow-right"></i></a>
             </div>
         </div>
     </section>
@@ -225,23 +135,11 @@
                 <div class="contact-form">
                     <form>
                         <div class="form-row">
-                            <div class="form-group">
-                                <label>Name *</label>
-                                <input type="text" placeholder="Your Name">
-                            </div>
-                            <div class="form-group">
-                                <label>Email *</label>
-                                <input type="email" placeholder="Your @email.com">
-                            </div>
+                            <div class="form-group"><label>Name *</label><input type="text" placeholder="Your Name"></div>
+                            <div class="form-group"><label>Email *</label><input type="email" placeholder="Your @email.com"></div>
                         </div>
-                        <div class="form-group">
-                            <label>Subject *</label>
-                            <input type="text" placeholder="What is this about?">
-                        </div>
-                        <div class="form-group">
-                            <label>Message *</label>
-                            <textarea rows="4" placeholder="Tell us more about this subject..."></textarea>
-                        </div>
+                        <div class="form-group"><label>Subject *</label><input type="text" placeholder="What is this about?"></div>
+                        <div class="form-group"><label>Message *</label><textarea rows="4" placeholder="Tell us more about this subject..."></textarea></div>
                     </form>
                 </div>
             </div>
@@ -253,28 +151,15 @@
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-brand">
-                    <div class="logo">
-                        <i class="fa-solid fa-cube" style="color: #ffb88c; margin-right: 10px;"></i>
-                        <strong>TeamCit</strong>
-                    </div>
+                    <div class="logo"><i class="fa-solid fa-cube" style="color: #ffb88c; margin-right: 10px;"></i><strong>AutoMates</strong></div>
                     <p>Commitment issues? Only on GitHub. We don't have bugs, we have "undocumented features."</p>
                 </div>
                 <div class="footer-links">
                     <h3>Quick Links</h3>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-links">
-                    <h3>Services</h3>
-                    <ul>
-                        <li><a href="#">AI Integration</a></li>
-                        <li><a href="#">Web Design</a></li>
-                        <li><a href="#">Mobile Apps</a></li>
-                        <li><a href="#">Development</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="about.html">About</a></li>
                     </ul>
                 </div>
                 <div class="footer-social">
@@ -283,12 +168,11 @@
                         <a href="#"><i class="fa-brands fa-linkedin"></i></a>
                         <a href="#"><i class="fa-brands fa-facebook"></i></a>
                         <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
                     </div>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 TeamCIT. All rights reserved.</p>
+                <p>&copy; 2026 AutoMates. All rights reserved.</p>
             </div>
         </div>
     </footer>
