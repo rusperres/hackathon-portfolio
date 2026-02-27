@@ -260,7 +260,7 @@ section {
 
 .work-img-placeholder {
     height: 250px;
-    background: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
+    background: url('images/featured_projects/feat_proj_harold3.jpeg');
     display: flex;
     align-items: center;
     justify-content: center;
